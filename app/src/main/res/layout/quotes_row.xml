@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/quotes_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quotes is going to be here, then it goes on and on"
+        android:textStyle="bold"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/quotes_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quotes_body"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="By:"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
